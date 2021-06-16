@@ -1,0 +1,26 @@
+.empty {
+  width: 100%;
+  height: 5vh;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-large {
+  font-weight: 500;
+}
+
+.mole {
+  visibility: hidden;
+}
+
+#scoreview {
+  display: none;
+}
+
+#gameview {
+  display: block;
+}
+
+h6 {
+  line-height: 2rem;
+}
