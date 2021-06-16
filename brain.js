@@ -88,6 +88,12 @@ function showScore()
     $("#gameview").css("display","none");
     $("#scoreview").css("display","block");
     $("#score").html("Your Average Response time is<br>"+String(window.score.toFixed(3))+" s");
+    if(window.score<=0.8)
+        $("#comment").html("Fast as light");
+    else if(window.score>0.8 && window.score < 1.4)
+        $("#comment").html("Quick Fingers");
+    else 
+        $("#comment").html("Slow and Steady doesn't win this race !<br>Try Again !");
 }
 
 function playAgain()
